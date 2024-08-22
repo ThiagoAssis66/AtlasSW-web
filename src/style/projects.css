@@ -1,0 +1,22 @@
+.Projects {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .Projects h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .Projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Projects li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
