@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import '../style/projects.css'
+import './projects.css'
 
 function Projects() {
   return (

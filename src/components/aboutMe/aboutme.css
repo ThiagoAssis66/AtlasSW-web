@@ -1,7 +1,7 @@
 .AboutMe {
-    padding: 20px;
-    margin: 10px auto;
-    max-width: 800px;
+  background-color: black;
+    max-width: '100%';
+    height: 400px;
     text-align: center;
     padding-top: 100px; 
   }
@@ -9,10 +9,12 @@
   .AboutMe h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    color: aliceblue;
   }
   
   .AboutMe p {
     font-size: 1.2em;
     line-height: 1.6;
+    color: aliceblue;
   }
   

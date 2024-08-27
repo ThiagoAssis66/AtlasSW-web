@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import '../style/contact.css'
+import './contact.css'
 
 
 

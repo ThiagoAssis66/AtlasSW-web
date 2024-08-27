@@ -1,4 +1,5 @@
 .header {
+  margin-top: 30px;
   position: relative;
   z-index: 10; 
   background: transparent; 
@@ -23,7 +24,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: 'Barlow Condensed';
 }
 .nav-item {
   display: flex;
@@ -91,5 +93,22 @@
 .overlay-text h2 {
   margin: 0;
   font-size: 2rem; 
+}
+.social-bar {
+  background-color: #20394C;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #0077b5; /* Cor de destaque para hover */
 }
 
