@@ -7,7 +7,7 @@ import './footer.css'
 function Footer() {
   return (
     <footer className="Footer">
-      <p>&copy; 2024</p>
+      <p>© 2024 Atlas Software Work LTDA. - ©Todos os direitos reservados</p>
     </footer>
   );
 }

@@ -1,5 +1,5 @@
 .header {
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
   z-index: 10; 
   background: transparent; 
@@ -41,8 +41,7 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.nav-item a:hover {
-  
+.nav-item a:hover {  
   color: #007bff; 
 }
 
@@ -76,24 +75,6 @@
   height: auto; 
 }
 
-.overlay-text {
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%);
-  color: white; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
-}
-
-.overlay-text h1 {
-  margin: 0; 
-  font-size: 3rem; 
-}
-
-.overlay-text h2 {
-  margin: 0;
-  font-size: 2rem; 
-}
 .social-bar {
   background-color: #20394C;
   padding: 5px 0;
@@ -104,11 +85,47 @@
 .social-icon {
   color: white;
   margin: 0 10px;
-  font-size: 20px;
+  font-size: 22px;
   transition: color 0.3s;
 }
 
 .social-icon:hover {
-  color: #0077b5; /* Cor de destaque para hover */
+  color: #0077b5;
 }
 
+.slider-container {
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+/* Estilo para os dots */
+.slick-dots {
+  bottom: 100px; /* Ajusta a posição vertical */
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li button:before {
+  font-size: 12px; /* Tamanho das bolinhas */
+  color: white; /* Cor das bolinhas */
+  opacity: 0.75; /* Transparência das bolinhas inativas */
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1; /* Torna a bolinha ativa opaca (visível) */
+  color: gray; /* Cor da bolinha ativa (amarelo dourado, por exemplo) */
+}

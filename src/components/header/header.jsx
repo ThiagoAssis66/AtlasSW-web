@@ -1,11 +1,27 @@
 import React from 'react';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import Slider from 'react-slick';
 
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-import logo from '../../assets/logo.atl.png';
-import './header.css'
+import logo from '../../assets/AtlasV1.png';
+import banner1 from '../../assets/SLIDE1.jpg';
+import banner2 from '../../assets/SLIDE2.jpg';
+import banner3 from '../../assets/SLIDE3.jpg';
+import './header.css';
 
 const Header = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
   return (
     <div>
 
@@ -28,7 +44,7 @@ const Header = () => {
             <li className="nav-item"><a href="#projetos">Quem Somos</a></li>
             <li className="nav-item"><a href="#contato">Missão</a></li>
             <li className="nav-item logo-item">
-              <img src={logo} alt="Logo" style={{ width: '350px', height: 'auto', /* boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' */  }} className="logo" />
+              <img src={logo} alt="Logo" style={{ width: '350px', height: 'auto' }} className="logo" />
             </li>
             <li className="nav-item"><a href="#quem-somos">Skills</a></li>
             <li className="nav-item"><a href="#skills">Projetos</a></li>
@@ -36,12 +52,20 @@ const Header = () => {
           </ul>
         </nav>
       </header>
-      <div className="full-screen-image">
-        <img src="https://images7.alphacoders.com/133/1330715.png" alt="Descrição da imagem" />
-        <div className="overlay-text">
-          <h1 style={{ fontSize: 30 }}>DESENVOLVENDO</h1>
-          <h2 style={{ fontSize: 70 }}>Idéias do Amanhã</h2>
-        </div>
+
+      <div className="slider-container">
+        <Slider {...settings}>
+          <div>
+            <img src={banner1} alt="Slide 1" className="slider-image" />
+          </div>
+          <div>
+            <img src={banner2} alt="Slide 2" className="slider-image" />
+          </div>
+          <div>
+            <img src={banner3} alt="Slide 3" className="slider-image" />
+          </div>
+        </Slider>
+      
       </div>
     </div>
   );
