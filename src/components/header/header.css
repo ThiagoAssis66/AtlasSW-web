@@ -1,22 +1,22 @@
-.header {
-  margin-top: 20px;
+.header {  
   position: relative;
   z-index: 10; 
-  background: transparent; 
-  position: fixed;
+  background: transparent;   
   top: 0;
   left: 0;
-  width: 100%;  
+  width: '100%';  
+  background-color: #20394C;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-top: -30px;
+  margin-bottom: -30px;  
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
-  background: transparent; 
+  padding: 10px;  
+
+
 }
 
 .nav-list {
@@ -30,6 +30,7 @@
 .nav-item {
   display: flex;
   align-items: center; 
+  
 }
 
 .nav-item a {
@@ -128,4 +129,11 @@
 .slick-dots li.slick-active button:before {
   opacity: 1; /* Torna a bolinha ativa opaca (visível) */
   color: gray; /* Cor da bolinha ativa (amarelo dourado, por exemplo) */
+}
+
+.nav-item.active a {
+  color: #0077b5; /* Cor de destaque para o item ativo */
+}
+.nav-item a {
+  cursor: pointer; /* Transforma o ponteiro em uma mãozinha */
 }

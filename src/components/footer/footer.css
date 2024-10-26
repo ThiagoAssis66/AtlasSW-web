@@ -1,14 +1,44 @@
 .Footer {
-    background-color: #20394C;
-    color: white;
-    padding: 3px;
-    text-align: center;    
-    bottom: 0;
-   
-  }
-  
-  .Footer p {
-    margin: 0;
-    font-size: 12px;
-  }
-  
+  background-color: #20394C; 
+  padding: 20px;
+  display: flex;
+  height: 300px;
+}
+
+.Footer-content {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+.Footer-logo {
+  margin-top: 50px;
+  width: 250px; 
+  height: auto;
+  margin-bottom: 10px; 
+}
+
+.Footer-text {
+  margin-left: 30px;
+}
+
+.Footer-icons {
+  display: flex; /* Flexbox para os ícones */
+  gap: 15px; /* Espaçamento entre os ícones */
+  margin-left: 32px;
+}
+
+.Footer-icon {
+  font-size: 30px; /* Tamanho dos ícones */
+  color: #0077b5; /* Cor dos ícones (ajuste conforme necessário) */
+  transition: color 0.3s; /* Transição suave para mudança de cor */
+}
+
+.Footer-icon:hover {
+  color: #fff; /* Cor ao passar o mouse (LinkedIn) */
+}
+
+/* Adicione um seletor para Instagram, se necessário */
+.Footer-icon:hover:nth-child(2) {
+  color: #e1306c; /* Cor ao passar o mouse (Instagram) */
+}

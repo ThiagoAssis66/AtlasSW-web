@@ -20,8 +20,8 @@
   width: 30%;
   font-family: 'SUSE';
   color: white;
-  font-style: italic;
-  align-items: center;  
+  align-items: center; 
+  font-size: 20px; 
 }
 
 

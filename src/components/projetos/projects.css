@@ -1,22 +1,23 @@
-.Projects {
-    padding: 20px;
-    margin: 10px auto;
-    max-width: 800px;
-    text-align: center;
-  }
-  
-  .Projects h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  .Projects ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .Projects li {
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
-  
+.container-pro {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex; /* Torna os elementos filhos lado a lado */
+  justify-content: space-between; /* Espaço entre as divs */
+  align-items: center; /* Alinha os itens ao centro na vertical */
+}
+
+.container-text {
+  flex: 1; /* Ocupará o espaço restante */
+  padding-right: 20px; /* Espaçamento à direita para não encostar na imagem */
+  margin-left: 50px;
+}
+
+.container-img {
+  flex: 1; /* Ocupará o espaço restante */
+  max-width: 50%; /* Limita a largura máxima da imagem */
+}
+
+.project-image {
+  width: 100%; /* A imagem preencherá a largura disponível */
+  height: auto; /* Mantém a proporção da imagem */
+}

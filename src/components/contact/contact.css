@@ -1,5 +1,5 @@
 .Contact {
-  max-width: '100%';
+  max-width: '90%';
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
@@ -38,13 +38,15 @@ button {
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
   font-size: 20px;
 }
 
 button:hover {
   background-color: #0056b3;
+
+  
 }
 
 #title-contact {
@@ -52,4 +54,10 @@ button:hover {
   margin-left: 0px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.msg-status {
+  font-size: 20px;
+  margin-top: 20px;
+  color: whitesmoke;
 }
