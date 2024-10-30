@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Configure CORS para permitir apenas o domínio do GitHub Pages
 const corsOptions = {
-  origin: 'https://thiagoassis66.github.io/AtlasSW-web/', 
+  origin: 'https://thiagoassis66.github.io/', 
   methods: ['POST'],
   allowedHeaders: ['Content-Type'],
 };
