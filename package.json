@@ -1,4 +1,5 @@
 {
+  "homepage": "https://thiagoassis66.github.io/AtlasSW-web/",
   "name": "atlas-appweb",
   "private": true,
   "version": "0.0.0",
@@ -7,13 +8,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+    
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.7",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.2.0",
     "install": "^0.13.0",
     "npm": "^10.8.2",
     "react": "^18.3.1",
