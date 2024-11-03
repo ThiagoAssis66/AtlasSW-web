@@ -61,3 +61,10 @@ button:hover {
   margin-top: 20px;
   color: whitesmoke;
 }
+
+#subtitle-contact {
+  font-size: 25px;
+  color: whitesmoke;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}

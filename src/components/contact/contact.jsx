@@ -36,6 +36,7 @@ function Contact() {
   return (
     <section id="contato" className="Contact">
       <h2 id="title-contact">Entre em contato e solicite um orçamento</h2>
+      <h2 id="subtitle-contact">Nosso Email atlas.softwarework@gmail.com</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Seu Nome:</label>
