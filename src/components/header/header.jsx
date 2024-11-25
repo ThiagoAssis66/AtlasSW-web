@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <div>
       <animated.div style={socialBarAnimation} className="social-bar">
-        <a href="https://www.instagram.com/atlassw.io/" target="_blank" rel="noopener noreferrer" className="social-icon">
+        <a href="https://www.instagram.com/atlassw.tech/" target="_blank" rel="noopener noreferrer" className="social-icon">
           <FaInstagram />
         </a>
         <a href="https://www.linkedin.com/company/atlas-software-work/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="social-icon">
