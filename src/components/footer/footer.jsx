@@ -13,7 +13,7 @@ function Footer() {
         <img src={logo} alt="Logo" className="Footer-logo" />
         <p className='Footer-text'>© 2024 Atlas Software Work LTDA. - Todos os direitos reservados</p>
         <div className="Footer-icons">
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/atlas-software-work/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="Footer-icon" />
           </a>
           <a href="https://www.instagram.com/atlassw.oficial/" target="_blank" rel="noopener noreferrer">
