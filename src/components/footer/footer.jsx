@@ -16,7 +16,7 @@ function Footer() {
           <a href="https://www.linkedin.com/company/atlas-software-work/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="Footer-icon" />
           </a>
-          <a href="https://www.instagram.com/atlassw.oficial/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/atlassw.tech/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="Footer-icon" />
           </a>
         </div>
