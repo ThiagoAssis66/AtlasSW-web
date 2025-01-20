@@ -1,10 +1,13 @@
+/* Código CSS original com responsividade */
+
+/* Estilos gerais */
 .header {  
   position: relative;
   z-index: 10; 
   background: transparent;   
   top: 0;
   left: 0;
-  width: '100%';  
+  width: 100%;  
   background-color: #20394C;
 }
 
@@ -15,8 +18,6 @@
   justify-content: space-around;
   align-items: center;
   padding: 10px;  
-
-
 }
 
 .nav-list {
@@ -27,10 +28,10 @@
   font-size: 30px;
   font-family: 'Barlow Condensed';
 }
+
 .nav-item {
   display: flex;
   align-items: center; 
-  
 }
 
 .nav-item a {
@@ -49,23 +50,8 @@
 .logo-item {
   margin-left: auto;
   margin-right: auto;
-  
 }
 
-.full-screen-image {
-  position: cover;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1; 
-}
-
-.full-screen-image img {
-  width: 100%;
-  height: auto;
-  
-}
 .full-screen-image {
   position: relative; 
   text-align: center; 
@@ -134,6 +120,82 @@
 .nav-item.active a {
   color: #0077b5; /* Cor de destaque para o item ativo */
 }
+
 .nav-item a {
   cursor: pointer; /* Transforma o ponteiro em uma mãozinha */
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .nav {
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    font-size: 24px;
+  }
+
+  .nav-item {
+    justify-content: center;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav-list {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .nav-item a {
+    margin: 5px;
+  }
+
+  .social-bar {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .social-icon {
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .slider-container {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-list {
+    font-size: 18px;
+  }
+
+  .nav-item a {
+    font-size: 16px;
+  }
+
+  .full-screen-image img {
+    height: auto;
+    max-height: 50vh;
+  }
+
+  .overlay-text {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .slick-dots {
+    bottom: 20px;
+  }
 }
